@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 
 import { urlFor, client } from "../../client";
 
-import { images } from "../../constants";
+import { AppWrap } from "../../wrapper";
+
 import "./About.scss";
 
 const About = () => {
@@ -29,7 +30,7 @@ const About = () => {
           <motion.div
             whileInView={{ opacity: 1 }}
             whileHover={{ scale: 1.1 }}
-            transition={{ duration: 0.5, type: "tween" }}
+            transition={{ duration: 0.35, type: "tween" }}
             className="app__profile-item"
             key={about.title + index}
           >
@@ -47,4 +48,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AppWrap(About, "about");
