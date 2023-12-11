@@ -14,14 +14,11 @@ Welcome to my Portfolio! This project showcases my skills and projects as a web 
 
 - **Responsive Design:** The portfolio is designed to be responsive, ensuring a seamless experience across different devices and screen sizes.
 
-## Getting Started
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
+## How to Run Locally
+1. Clone this repository to your local machine.
 
    ```bash
-   git clone https://github.com/Thili-126/project-portfolio.git
+   git clone https://github.com/Edward-126/project-portfolio.git
    ```
 ---
 
